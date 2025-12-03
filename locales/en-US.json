@@ -1,10 +1,64 @@
 {
+  "meta": {
+    "title": "Arkka OS - The Intelligent Operating System for Growth",
+    "description": "The Intelligent Operating System for Growth. Built for speed. Designed to sell. Powered by Gemini."
+  },
   "hero": {
-    "title": "Arkka OS — The intelligent digital infrastructure",
-    "subtitle": "Next-generation tools for building modern product experiences.",
-    "cta": "Get Started"
+    "badge": "Arkka OS is Live",
+    "title": "The Intelligent Operating System for Growth",
+    "subtitle": "Stop using fragmented tools. Arkka unifies your Web Presence, AI Agents, and Workspace into one powerful infrastructure.",
+    "cta": "Start Your Free Trial",
+    "secondary": "Watch Demo"
+  },
+  "features": {
+    "title": "The Arkka Suite",
+    "subtitle": "Four integrated pillars of digital infrastructure",
+    "webEngine": {
+      "title": "The Web Engine",
+      "description": "Not a WordPress theme. A custom-engineered Next.js Progressive Web App with 100/100 Lighthouse score. Your competitors are slow. You're instant."
+    },
+    "aiAgent": {
+      "title": "Arkka Intelligence",
+      "description": "An embedded AI Concierge powered by Google Gemini Pro. Voice-enabled interaction, 24/7 lead qualification, automated Q&A."
+    },
+    "workspace": {
+      "title": "Workspace Core",
+      "description": "Professional infrastructure. Managed Google Workspace, custom domain email, calendar sync, enterprise-grade security."
+    },
+    "dashboard": {
+      "title": "Nexus Dashboard",
+      "description": "Your unified command center. Real-time lead tracking, privacy-focused analytics, content updates without code, monthly ROI reports."
+    }
+  },
+  "pricing": {
+    "title": "Simple Infrastructure Pricing",
+    "subtitle": "We sell infrastructure, not hours",
+    "launch": {
+      "name": "Launch Kit",
+      "price": "$97",
+      "setup": "$1,500 setup",
+      "features": "One-Page PWA, Google Business Profile, Text Chatbot"
+    },
+    "growth": {
+      "name": "Growth OS",
+      "price": "$197",
+      "setup": "$2,500 setup",
+      "features": "Multi-page PWA, Voice AI Agent, Workspace Setup, Dashboard, Monthly SEO"
+    },
+    "monthly": "/month"
+  },
+  "cta": {
+    "title": "Ready to Deploy Your Operating System?",
+    "subtitle": "Join ambitious businesses already using Arkka OS",
+    "button": "Start Your Free Trial"
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact"
   },
   "ai": {
-    "placeholder": "Try: Build me a website for a law firm"
+    "placeholder": "Ask Arkka anything..."
   }
 }

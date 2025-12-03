@@ -11,6 +11,13 @@
     @apply bg-background font-sans text-off-white;
     font-size: 62.5%;
     transition: background-color 240ms ease, color 240ms ease;
+    color-scheme: dark;
+  }
+
+  html.light {
+    color-scheme: light;
+    background-color: #ffffff;
+    color: #1f2937;
   }
 
   body {
@@ -25,6 +32,11 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
+  .light .glass-effect {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
   .glass-effect-strong {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
@@ -32,13 +44,26 @@
     border: 1px solid rgba(255, 255, 255, 0.12);
   }
 
+  .light .glass-effect-strong {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
   /* Glow effect for premium feel */
   .glow-subtle {
     box-shadow: 0 8px 32px rgba(124, 58, 237, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 
+  .light .glow-subtle {
+    box-shadow: 0 8px 32px rgba(124, 58, 237, 0.12), inset 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .glow-medium {
     box-shadow: 0 12px 48px rgba(124, 58, 237, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .light .glow-medium {
+    box-shadow: 0 12px 48px rgba(124, 58, 237, 0.16), inset 0 1px 0 rgba(0, 0, 0, 0.1);
   }
 
   /* Smooth transitions */

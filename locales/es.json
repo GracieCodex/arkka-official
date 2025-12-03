@@ -1,10 +1,64 @@
 {
+  "meta": {
+    "title": "Arkka OS - El Sistema Operativo Inteligente para el Crecimiento",
+    "description": "El Sistema Operativo Inteligente para el Crecimiento. Construido para velocidad. Diseñado para vender. Powered by Gemini."
+  },
   "hero": {
-    "title": "Arkka OS — La infraestructura digital inteligente",
-    "subtitle": "Herramientas de próxima generación para crear experiencias de producto modernas.",
-    "cta": "Comenzar"
+    "badge": "Arkka OS en Vivo",
+    "title": "El Sistema Operativo Inteligente para el Crecimiento",
+    "subtitle": "Deja de usar herramientas fragmentadas. Arkka unifica tu Presencia Web, Agentes de IA y Espacio de Trabajo en una infraestructura poderosa.",
+    "cta": "Inicia tu Prueba Gratuita",
+    "secondary": "Ver Demo"
+  },
+  "features": {
+    "title": "El Suite Arkka",
+    "subtitle": "Cuatro pilares integrados de infraestructura digital",
+    "webEngine": {
+      "title": "El Motor Web",
+      "description": "No es un tema de WordPress. Una Progressive Web App de Next.js personalizada con puntuación 100/100 en Lighthouse. Tus competidores son lentos. El tuyo es instantáneo."
+    },
+    "aiAgent": {
+      "title": "Arkka Intelligence",
+      "description": "Un Conserje de IA integrado impulsado por Google Gemini Pro. Interacción por voz, calificación de leads 24/7, preguntas y respuestas automatizadas."
+    },
+    "workspace": {
+      "title": "Workspace Core",
+      "description": "Infraestructura profesional. Google Workspace administrado, correo de dominio personalizado, sincronización de calendario, seguridad de nivel empresarial."
+    },
+    "dashboard": {
+      "title": "Panel Nexus",
+      "description": "Tu centro de comando unificado. Seguimiento de leads en tiempo real, análisis enfocado en privacidad, actualizaciones de contenido sin código, informes mensuales de ROI."
+    }
+  },
+  "pricing": {
+    "title": "Precios de Infraestructura Simple",
+    "subtitle": "Vendemos infraestructura, no horas",
+    "launch": {
+      "name": "Kit de Lanzamiento",
+      "price": "€79",
+      "setup": "€1.500 setup",
+      "features": "PWA de Una Página, Perfil de Google Business, Chatbot de Texto"
+    },
+    "growth": {
+      "name": "Growth OS",
+      "price": "€159",
+      "setup": "€2.500 setup",
+      "features": "PWA Multipáginas, Agente de IA por Voz, Setup Workspace, Panel, SEO Mensual"
+    },
+    "monthly": "/mes"
+  },
+  "cta": {
+    "title": "¿Listo para Implementar tu Sistema Operativo?",
+    "subtitle": "Únete a las empresas ambiciosas que ya usan Arkka OS",
+    "button": "Inicia tu Prueba Gratuita"
+  },
+  "nav": {
+    "features": "Características",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto"
   },
   "ai": {
-    "placeholder": "Prueba: Crea un sitio web para un bufete de abogados"
+    "placeholder": "Pregunta a Arkka cualquier cosa..."
   }
 }

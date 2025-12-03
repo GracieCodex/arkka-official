@@ -50,6 +50,16 @@ module.exports = {
       16: "6.4rem",
       "navigation-height": "var(--navigation-height)",
     },
+    zIndex: {
+      0: "0",
+      10: "10",
+      20: "20",
+      30: "30",
+      40: "40",
+      50: "50",
+      100: "100",
+      auto: "auto",
+    },
     backgroundImage: {
       "primary-gradient":
         "linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)",
