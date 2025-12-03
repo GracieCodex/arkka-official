@@ -8,10 +8,12 @@ import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
 import classNames from "classnames";
 import { useTheme } from "next-themes";
+import { useLocale } from "../lib/hooks/useLocale";
 
 export const Header = () => {
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
   const { theme, setTheme } = useTheme();
+  const locale = useLocale();
 
   useEffect(() => {
     const html = document.querySelector("html");
@@ -83,7 +85,21 @@ export const Header = () => {
           </nav>
         </div>
 
-        <div className="ml-auto flex h-full items-center gap-4">
+        <div className="ml-auto flex h-full items-center gap-3">
+          <select
+            value={locale}
+            onChange={(e) => {
+              try {
+                localStorage.setItem("arkka_locale", e.target.value);
+                window.location.reload();
+              } catch {}
+            }}
+            className="rounded-md border border-white/6 bg-transparent px-3 py-1 text-sm text-white"
+          >
+            <option value="en-US">EN</option>
+            <option value="pt-BR">PT</option>
+            <option value="es">ES</option>
+          </select>
           <button
             aria-label="Toggle theme"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

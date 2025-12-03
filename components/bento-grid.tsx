@@ -27,9 +27,9 @@ export function BentoGrid() {
 
   return (
     <section className="my-12">
-      <div className="mb-6 text-center">
-        <h3 className="text-3xl font-semibold">What Arkka OS offers</h3>
-        <p className="text-gray-300 mt-2">Modular building blocks to ship faster with AI-powered workflows.</p>
+      <div className="mb-8 text-center">
+        <h3 className="text-3xl font-semibold">Arkka OS Features</h3>
+        <p className="text-gray-300 mt-2">Everything you need to build, launch, and scale products with AI.</p>
       </div>
 
       <div
@@ -47,13 +47,18 @@ export function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ delay: i * 0.08 }}
-            className="relative overflow-hidden rounded-xl border border-white/6 bg-white/3 p-6 backdrop-blur-md"
+            className="group relative overflow-hidden rounded-2xl border border-white/6 bg-white/3 p-6 backdrop-blur-md transition-all-smooth hover:border-white/12 hover:bg-white/5"
           >
-            <div className="absolute inset-0 pointer-events-none opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            <h4 className="mb-2 text-lg font-medium">{s.title}</h4>
-            <p className="text-sm text-gray-300">{s.desc}</p>
-            <div className="mt-4 flex items-center gap-2 text-sm">
-              <span className="rounded px-2 py-1 bg-white/6">Try demo</span>
+            <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none" 
+                 style={{
+                   background: "radial-gradient(600px circle at var(--mx,50%) var(--my,50%), rgba(124,58,237,0.1), transparent 80%)"
+                 }} />
+            <div className="relative z-10">
+              <h4 className="mb-2 text-lg font-medium">{s.title}</h4>
+              <p className="text-sm text-gray-300">{s.desc}</p>
+              <div className="mt-4 flex items-center gap-2 text-sm">
+                <span className="rounded px-2 py-1 bg-white/6 transition-all-smooth group-hover:bg-indigo-600/20">Try demo</span>
+              </div>
             </div>
           </motion.article>
         ))}

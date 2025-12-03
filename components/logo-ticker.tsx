@@ -21,6 +21,10 @@ const LOGOS = [
 export function LogoTicker() {
   return (
     <section className="my-12">
+      <div className="text-center mb-6">
+        <h3 className="text-2xl font-semibold">Trusted by leading teams</h3>
+        <p className="text-gray-300 mt-2">Join 500+ agencies and founders building with Arkka</p>
+      </div>
       <div className="overflow-hidden">
         <div className="flex animate-marquee gap-8 whitespace-nowrap py-4">
           {[...LOGOS, ...LOGOS].map((name, idx) => {

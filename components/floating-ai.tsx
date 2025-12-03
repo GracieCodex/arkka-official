@@ -82,14 +82,15 @@ export function FloatingAI() {
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
-              className="w-[22rem] max-w-[90vw] rounded-xl bg-white/6 backdrop-blur-md border border-white/6 p-3 shadow-primary"
+              transition={{ type: "spring", damping: 20, stiffness: 300 }}
+              className="w-[22rem] max-w-[90vw] rounded-2xl glass-effect-strong p-4 shadow-primary"
             >
               <div className="flex items-center justify-between">
-                <strong>Arkka AI</strong>
+                <strong className="text-white">Arkka AI Concierge</strong>
                 <button
                   aria-label="Close"
                   onClick={() => setOpen(false)}
-                  className="text-sm opacity-80"
+                  className="text-sm opacity-60 transition-opacity hover:opacity-100"
                 >
                   ✕
                 </button>

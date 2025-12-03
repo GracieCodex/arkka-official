@@ -30,7 +30,7 @@ export function InteractiveDashboard() {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="mt-8 w-full max-w-[48rem] rounded-2xl bg-gradient-to-br from-white/3 to-white/2 p-4 backdrop-blur-md border border-white/6"
+      className="mt-8 w-full max-w-[48rem] rounded-2xl glass-effect-strong p-6 glow-subtle"
     >
       <div className="flex items-center justify-between">
         <div>
