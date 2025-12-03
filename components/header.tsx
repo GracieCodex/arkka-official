@@ -7,9 +7,11 @@ import { Container } from "./container";
 import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
 import classNames from "classnames";
+import { useTheme } from "next-themes";
 
 export const Header = () => {
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     const html = document.querySelector("html");
@@ -81,7 +83,14 @@ export const Header = () => {
           </nav>
         </div>
 
-        <div className="ml-auto flex h-full items-center">
+        <div className="ml-auto flex h-full items-center gap-4">
+          <button
+            aria-label="Toggle theme"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="rounded-md border border-white/6 px-3 py-1 text-sm"
+          >
+            {theme === "dark" ? "Light" : "Dark"}
+          </button>
           <Link className="mr-6 text-sm" href="#">
             Log in
           </Link>

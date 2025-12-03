@@ -10,7 +10,28 @@
   html {
     @apply bg-background font-sans text-off-white;
     font-size: 62.5%;
+    transition: background-color 240ms ease, color 240ms ease;
   }
+
+  body {
+    transition: background-color 240ms ease, color 240ms ease;
+  }
+
+/* marquee animation for logo ticker */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.border-gradient {
+  border-width: 1px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg,#7c3aed,#7c3aed);
+}
 
   .highlighted-keys .active rect:first-child {
     fill-opacity: 0.4;

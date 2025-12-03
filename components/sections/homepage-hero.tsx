@@ -1,6 +1,7 @@
 import { Button, Highlight } from "../button";
 import { Hero, HeroTitle, HeroSubtitle } from "../hero";
 import { HeroImage } from "../hero-image";
+import InteractiveDashboard from "../interactive-dashboard";
 import { ChevronIcon } from "../icons/chevron";
 
 export const HomepageHero = () => (
@@ -35,5 +36,6 @@ export const HomepageHero = () => (
       </Highlight>
     </Button>
     <HeroImage />
+    <InteractiveDashboard />
   </Hero>
 );
