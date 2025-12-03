@@ -53,7 +53,7 @@ export const Footer = () => (
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="flex items-center text-grey">
-            <Logo className="mr-4 h-4 w-4" /> Linear - Designed worldwide
+            <Logo className="mr-4 h-4 w-4" /> Arkka OS - Digital Agency Platform
           </div>
           <div className="mt-auto flex space-x-4 text-grey">
             <TwitterIcon />
