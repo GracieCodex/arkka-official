@@ -17,11 +17,8 @@
   },
   "optionalDependencies": {
     "framer-motion": "^10.12.4",
-    "@vercel/ai": "^0.7.0",
     "lucide-react": "^0.268.0",
-    "next-intl": "^2.5.0",
-    "next-themes": "^0.2.1",
-    "swr": "^2.2.0"
+    "next-themes": "^0.2.1"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.2",
