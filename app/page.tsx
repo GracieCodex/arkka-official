@@ -5,6 +5,10 @@ import { BuildMomentum } from "../components/sections/build-momentum";
 import { Clients } from "../components/sections/clients";
 import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
 import { HomepageHero } from "../components/sections/homepage-hero";
+import BentoGrid from "../components/bento-grid";
+import LogoTicker from "../components/logo-ticker";
+import Pricing from "../components/pricing";
+import Onboarding from "../components/onboarding/Onboarding";
 import { SetDirection } from "../components/sections/set-direction";
 import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 
@@ -16,6 +20,18 @@ export default function Homepage() {
           <HomepageHero />
         </Container>
       </div>
+      <Container>
+        <BentoGrid />
+      </Container>
+      <Container>
+        <LogoTicker />
+      </Container>
+      <Container>
+        <Pricing />
+      </Container>
+      <Container>
+        <Onboarding />
+      </Container>
       <Container>
         <Clients />
       </Container>

@@ -82,8 +82,19 @@ export const CommandMenu = () => {
 
     window.addEventListener("click", toggleCommandMenu);
 
+    const onKey = (ev: KeyboardEvent) => {
+      const isMac = navigator.platform.toLowerCase().includes("mac");
+      const meta = isMac ? ev.metaKey : ev.ctrlKey;
+      if (meta && ev.key.toLowerCase() === "k") {
+        ev.preventDefault();
+        setOpened((o) => !o);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+
     return () => {
       window.removeEventListener("click", toggleCommandMenu);
+      window.removeEventListener("keydown", onKey);
     };
   }, []);
 

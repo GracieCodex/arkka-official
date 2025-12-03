@@ -1,0 +1,12 @@
+export { VercelLogo as Vercel } from "./vercel";
+export { ArcLogo as Arc } from "./arc";
+export { CashAppLogo as Cashapp } from "./cashapp";
+export { DescriptLogo as Descript } from "./descript";
+export { LoomLogo as Loom } from "./loom";
+export { MercuryLogo as Mercury } from "./mercury";
+export { OpenSeaLogo as Opensea } from "./opensea";
+export { PitchLogo as Pitch } from "./pitch";
+export { RampLogo as Ramp } from "./ramp";
+export { RaycastLogo as Raycast } from "./raycast";
+export { RetoolLogo as Retool } from "./retool";
+export { AlanLogo as Alan } from "./alan";
